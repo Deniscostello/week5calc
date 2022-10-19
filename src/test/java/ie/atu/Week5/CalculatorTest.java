@@ -29,6 +29,14 @@ class CalculatorTest {
     void testMultiply(){
         assertEquals(10, calcValue.multiply());
     }
+
+
+    @Test
+    void testDivide(){
+        assertEquals(5,calcValue.divide());
+    }
+
+    @Test
     @AfterEach
     void tearDown() {
     }
