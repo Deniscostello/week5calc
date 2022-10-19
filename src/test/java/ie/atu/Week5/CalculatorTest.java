@@ -24,6 +24,11 @@ class CalculatorTest {
     void testSubtract(){
         assertEquals(5,calcValue.subtract() );
     }
+
+    @Test
+    void testMultiply(){
+        assertEquals(10, calcValue.multiply());
+    }
     @AfterEach
     void tearDown() {
     }
