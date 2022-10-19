@@ -11,4 +11,8 @@ public class Calculator {
     {
         return 6 - 1;
     }
+
+    public int multiply(){
+        return 2 * 5;
+    }
 }
